@@ -39,11 +39,20 @@ export const SummaryCard = styled.div<SummaryCardProps>`
         display: block;
         margin-top: 1rem;
         font-size: 2rem;
+        transition: 0.1s;
     }
 
     ${props => props.variant === 'green' && css`
         background-color: ${props => props.theme['green-700']};
     ` }
+    
+
+    &:hover {
+        strong {
+            color: white;
+
+        }
+    }
 
     
 
