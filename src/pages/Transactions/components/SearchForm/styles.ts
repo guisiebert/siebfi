@@ -31,13 +31,15 @@ export const SearchFormContainer = styled.form`
         font-weight: bold;
         border-radius: 6px;
 
-        transition: 0.1s;
+        transition: 0.5s;
 
         &:hover {
         background-color: ${props => props.theme['green-500']};
         border: 1px solid ${props => props.theme['green-500']} ;
         color: ${props => props.theme['white']};
         }
+
+
     }
 `
 
