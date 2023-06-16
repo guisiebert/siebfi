@@ -31,6 +31,9 @@ export const SearchFormContainer = styled.form`
         font-weight: bold;
         border-radius: 6px;
 
+        cursor: pointer;
+
+
         transition: 0.5s;
 
         &:hover {
