@@ -34,7 +34,7 @@ export const SearchFormContainer = styled.form`
         cursor: pointer;
 
 
-        transition: 0.5s;
+        transition: 0.2s;
 
         &:hover {
         background-color: ${props => props.theme['green-500']};
