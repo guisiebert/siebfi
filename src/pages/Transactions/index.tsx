@@ -5,6 +5,10 @@ import {SearchForm} from './components/SearchForm'
 import { PriceHighlight, TransactionsContainer, TransactionsTable } from "./styles";
 
 export function Transactions() {
+
+    fetch('http://localhost:3000/transactions')
+        .then(res => console.log(res.data))
+
     return (
         <div>
             <Header />
