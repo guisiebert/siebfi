@@ -1,0 +1,9 @@
+{
+    "extends": "@rocketseat/eslint-config/react",
+    "@typescript-eslint/no-empty-interface": [
+        "error",
+        {
+          "allowSingleExtends": true
+        }
+      ]
+}

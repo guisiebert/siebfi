@@ -1,30 +1,60 @@
 {
-    "transactions": [
-        {
-            "id": 1,
-            "description": "Desenvolves de Sites",
-            "type": "income",
-            "category": "Venda",
-            "price": 14000,
-            "createdAt": "2023-07-01T16:11:39.077Z"
-        }, 
-        {
-            "id": 2,
-            "description": "Hamburger",
-            "type": "expense",
-            "category": "Alimentação",
-            "price": 50,
-            "createdAt": "2023-07-01T16:11:39.077Z"
-            
-        },
-        {
-            "id": 3,
-            "description": "Milho Verde",
-            "type": "expense",
-            "category": "Alimentação do Mar",
-            "price": 10,
-            "createdAt": "2023-07-01T16:11:39.077Z"
-            
-        }
-    ]
+  "transactions": [
+    {
+      "id": 1,
+      "description": "Desenvolves de Sites",
+      "type": "income",
+      "category": "Venda",
+      "price": 14000,
+      "createdAt": "2023-06-21T16:11:39.077Z"
+    },
+    {
+      "id": 2,
+      "description": "Hamburger",
+      "type": "expense",
+      "category": "Alimentação",
+      "price": 50,
+      "createdAt": "2023-06-22T16:11:39.077Z"
+    },
+    {
+      "id": 3,
+      "description": "Milho Verde",
+      "type": "expense",
+      "category": "Alimentação do Mar",
+      "price": 10,
+      "createdAt": "2023-07-01T16:11:39.077Z"
+    },
+    {
+      "description": "Sushi",
+      "price": 45,
+      "category": "Alimentos Bons",
+      "type": "expense",
+      "createdAt": "2023-07-04T18:50:08.793Z",
+      "id": 4
+    },
+    {
+      "description": "Presente do Wilson",
+      "price": 41,
+      "category": "Presentes",
+      "type": "expense",
+      "createdAt": "2023-07-04T18:54:42.656Z",
+      "id": 5
+    },
+    {
+      "description": "iPhone 14",
+      "price": 15000,
+      "category": "Futilidades",
+      "type": "expense",
+      "createdAt": "2023-07-04T19:15:20.341Z",
+      "id": 6
+    },
+    {
+      "description": "Venda do iPhone",
+      "price": 5500,
+      "category": "Arrependimentos",
+      "type": "income",
+      "createdAt": "2023-07-04T19:25:35.568Z",
+      "id": 7
+    }
+  ]
 }
