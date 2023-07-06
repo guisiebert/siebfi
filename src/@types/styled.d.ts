@@ -14,3 +14,4 @@ declare module 'styled-components' {
         ThemeType
     }
 }
+
