@@ -5,15 +5,13 @@ import { useSummary } from "../../hooks/useSummary";
 
 export function Summary() {
 
-    // const { transactions } = useContext(TransactionContext)
-
     const summary = useSummary()
 
     return(
         <SummaryContainer>
             <SummaryCard>
                 <header>
-                    <span>Entradas</span>
+                    <span>Earnings</span>
                     <ArrowCircleUp size={32} color="#00b37e"/>
                 </header>
                 <strong>
@@ -23,7 +21,7 @@ export function Summary() {
             
             <SummaryCard>
                 <header>
-                    <span>Saídas</span>
+                    <span>Expenses</span>
                     <ArrowCircleDown size={32} color="#f75a68"/>
                 </header>
                 <strong>
@@ -33,7 +31,7 @@ export function Summary() {
 
             <SummaryCard variant="green">
                 <header>
-                    <span>Entradas</span>
+                    <span>Total</span>
                     <CurrencyDollar size={32} color="#fff"/>
                 </header>
                 <strong>

@@ -60,20 +60,20 @@ export function NewTransactionModal() {
                 >
                     <input 
                         type="text" 
-                        placeholder="Descrição" 
+                        placeholder="Description" 
                         required
                         {...register('description')}
                     />
                     <input 
                         type="number" 
-                        placeholder="Preço" 
+                        placeholder="Value" 
                         required
                         {...register("price", { valueAsNumber: true })}
                     />
 
                     <input 
                         type="text" 
-                        placeholder="Categoria" 
+                        placeholder="Category" 
                         required
                         {...register("category")} 
                     />
@@ -90,12 +90,12 @@ export function NewTransactionModal() {
                                 >
                                     <TransactionTypeButton value="income" variant="income">
                                         <ArrowCircleUp size={24}/>
-                                        Entrada
+                                        Income
                                     </TransactionTypeButton>
             
                                     <TransactionTypeButton value="expense" variant="expense">
                                         <ArrowCircleDown size={24}/>
-                                        Saída
+                                        Expense
                                     </TransactionTypeButton>
                                 </TransactionTypeContainer>
                             )
@@ -103,7 +103,7 @@ export function NewTransactionModal() {
                     />
 
                     <button type="submit" disabled={isSubmitting}>
-                        Cadastrar
+                        Register
                     </button>
                 </form>
             </Content>
